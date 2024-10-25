@@ -1,7 +1,9 @@
 import s from './TransactionHistory.module.css';
 
 const TransactionHistory = ({ items }) => {
-  return (
+ const {type, amount, currency} = items;
+ 
+    return (
       <table className={s.table}>
         <thead >
           <tr className={s.tableHead}>

@@ -7,7 +7,7 @@ import userData from '../assets/userData.json'
 import friends from '../assets/friends.json'
 import FriendList from './FriendsList/FriendsList'
 import transactions from '../assets/transactions.json'
-import TransactionHistory from '../Components/TransactionHistory/TransactionHistory'
+import TransactionHistory from './TransactionHistory/TransactionHistory'
 
 function App() {
 
