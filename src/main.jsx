@@ -9,4 +9,3 @@ createRoot(document.getElementById('root')).render(
     <App />
   </StrictMode>,
 )
-// Коментар що треба видалити
