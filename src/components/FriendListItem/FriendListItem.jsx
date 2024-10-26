@@ -2,8 +2,8 @@ import s from './FriendListItem.module.css';
 
 
 
-const FriendsListItem = ({ friend }) => {
-  const { avatar, name, isOnline } = friend;  
+const FriendsListItem = ({ avatar, name, isOnline }) => {
+  // const { avatar, name, isOnline } = friend;  
   return (
         <div className={s.cardFriends}>
         <img className={s.imageAvatar} src={avatar} alt="Avatar" />
